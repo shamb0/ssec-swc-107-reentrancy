@@ -43,7 +43,9 @@ const config: BuidlerConfig = {
     },
     ganache: {
       url: "http://localhost:7545",
-    },
+      gasLimit: 6000000000,
+      defaultBalanceEther: 100,
+    } as any,
     coverage: {
       url: "http://localhost:8555",
     },

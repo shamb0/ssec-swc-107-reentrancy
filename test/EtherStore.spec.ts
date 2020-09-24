@@ -86,7 +86,7 @@ describe('EtherStore Attack Test', () => {
 
 
       // // Register for the event-callback ...
-      // attackinst.once( "eventAttackFallBack", ( contbalance ) => {
+      // attackinst.on( "eventAttackFallBack", ( contbalance ) => {
 
       //   callbackcount++
 
@@ -108,7 +108,7 @@ describe('EtherStore Attack Test', () => {
         gasLimit: GAS_LIMIT,
       })
 
-      // // Poll for the event-callback ...
+      // Poll for the event-callback ...
       // while( iseventfired === false ){
       //   await sleep( 1 * 1000 ) //sleep for 5 sec, poll for the event
       //   // log.info( `Blocked for event notif state(${eventoccur})`);
